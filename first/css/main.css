@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+.mainimg {
+    width: 100%;
+}
+.modal {
+    position: fixed;
+    width:  100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.zhongdiv {
+    padding: 30px;
+    background-color: white;
+    width: 390px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.high {
+    width: 100%;
+    height: 90px;
+}
+h3 {
+    margin-top: 0px;
+    font-size: 27px;
+}
+.high button {
+    position: absolute;
+    left: 432px;
+    bottom: 496px;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: red;
+}
+.zh {
+    width: 200px;
+    height: 50px;
+    color: #008c8c;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.img1 {
+    position: absolute;
+    left: -260px;
+    bottom: -435px;
+}
+body {
+    cursor: url("./img/dbiao.ico"), auto;
+}
